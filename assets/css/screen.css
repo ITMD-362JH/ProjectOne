@@ -4,11 +4,14 @@
 */
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
+  text-align: center;
+}
+h1 {
+  font-size: 2em;
+  line-height: 0.9em;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
 }
 ol, ul {
 	list-style: none;
@@ -24,4 +27,21 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+#rad {
+  font-size: 1.5em;
+}
+
+@media (max-width: 800px) {
+  float: none;
+  width: 100%;
+  }
+
+@media screen and (min-width: 26.8em) {
+  h1 {
+    font-size: 4em;
+  }
+  #rad {
+    font-size: 2em;
+  }
 }
