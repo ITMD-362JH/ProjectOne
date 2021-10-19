@@ -30,14 +30,9 @@ BUTTON {
   font-size: 1.25em;
 }
 
-#rad {
+.rad {
   font-size: 1.5em;
 }
-
-@media (max-width: 50em) {
-  float: none;
-  width: 100%;
-  }
 
 @media screen and (min-width: 27em) {
   h1 {
@@ -52,3 +47,4 @@ BUTTON {
   p {
     font-size:2em;
   }
+}
