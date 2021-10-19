@@ -4,3 +4,17 @@
 */
 
 /* HTML5 display-role reset for older browsers */
+
+@media (max-width: 50em) {
+  float: none;
+  width: 100%;
+  }
+
+@media screen and (min-width: 26.8em) {
+  h1 {
+    font-size: 4em;
+  }
+  #rad {
+    font-size: 2em;
+  }
+}
