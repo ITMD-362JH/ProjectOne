@@ -17,3 +17,10 @@ function phFunc() {
   document.body.appendChild(y);
   document.getElementById("ph").innerHTML = "Enter phone number below: ";
 }
+
+function noFunc() {
+  var y = document.createElement("BUTTON");
+  var z = document.createTextNode("Submit");
+  y.appendChild(z);
+  document.body.appendChild(y);
+}
