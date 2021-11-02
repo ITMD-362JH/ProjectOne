@@ -1,7 +1,7 @@
 function emFunc() {
   var x = document.createElement("INPUT");
   var y = document.createElement("BUTTON");
-  var z = document.createTextNode("Submit");
+  var z = document.createTextNode("Join now!");
   document.body.appendChild(x);
   y.appendChild(z);
   document.body.appendChild(y);
@@ -14,7 +14,7 @@ function emFunc() {
 function phFunc() {
   var x = document.createElement("INPUT");
   var y = document.createElement("BUTTON");
-  var z = document.createTextNode("Submit");
+  var z = document.createTextNode("Join now!");
   document.body.appendChild(x);
   y.appendChild(z);
   document.body.appendChild(y);
@@ -26,7 +26,7 @@ function phFunc() {
 
 function noFunc() {
   var y = document.createElement("BUTTON");
-  var z = document.createTextNode("Submit");
+  var z = document.createTextNode("Join now!");
   y.appendChild(z);
   document.body.appendChild(y);
   document.getElementById("phone").disabled=true;
