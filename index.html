@@ -4,8 +4,8 @@
     <title>Project One</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=none" />
-    <link rel="stylesheet" href="assets/css/screen.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/screen.css">
     <script async src="assets/javascripts/main.js"></script>
   </head>
   <body>
@@ -23,13 +23,13 @@
       </p>
     <div id="rad">
     <form method="get" autocomplete="on" action="#null">
-      <input type="radio" id = "email" onclick="emFunc()">
+      <input type="radio" id = "email" onclick="emFunc()" name="choice">
       <label for="email">EMAIL</label>
       <p id="ema"></p>
-      <input type="radio" id = "phone" onclick="phFunc()">
+      <input type="radio" id = "phone" onclick="phFunc()" name="choice">
       <label for="phone">PHONE</label>
       <p id="ph"></p>
-      <input type="radio" id = "no" onclick="noFunc()">
+      <input type="radio" id = "no" onclick="noFunc()" name="choice">
       <label for="no">Not Interested</label>
     </form>
     </div>

@@ -6,6 +6,9 @@ function emFunc() {
   y.appendChild(z);
   document.body.appendChild(y);
   document.getElementById("ema").innerHTML = "Enter email address below: ";
+  document.getElementById("phone").disabled=true;
+  document.getElementById("no").disabled=true;
+  document.getElementById("email").disabled=true;
 }
 
 function phFunc() {
@@ -16,6 +19,9 @@ function phFunc() {
   y.appendChild(z);
   document.body.appendChild(y);
   document.getElementById("ph").innerHTML = "Enter phone number below: ";
+  document.getElementById("phone").disabled=true;
+  document.getElementById("no").disabled=true;
+  document.getElementById("email").disabled=true;
 }
 
 function noFunc() {
@@ -23,4 +29,7 @@ function noFunc() {
   var z = document.createTextNode("Submit");
   y.appendChild(z);
   document.body.appendChild(y);
+  document.getElementById("phone").disabled=true;
+  document.getElementById("no").disabled=true;
+  document.getElementById("email").disabled=true;
 }
