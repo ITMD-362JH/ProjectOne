@@ -6,6 +6,9 @@
 */
 
 /* HTML5 display-role reset for older browsers */
+html {
+  line-height: 1.5em;
+}
 body {
   font-family: 'Playfair Display', 'Roboto';
   text-align: center;
